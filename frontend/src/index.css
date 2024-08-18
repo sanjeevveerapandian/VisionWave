@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 10px 20px;
+  text-align: center;
+  position: relative;
+}
