@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body, html {
   margin: 0;
   padding: 0;
@@ -10,9 +15,9 @@ body, html {
 }
 
 nav {
-  background-color: #333;
+ 
   padding: 10px 20px;
-  color: white;
+
   text-align: center;
 }
 
@@ -29,7 +34,7 @@ li {
 }
 
 li a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -43,4 +48,36 @@ footer {
   padding: 10px 20px;
   text-align: center;
   position: relative;
+}
+/* src/index.css */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color:#162447;
+
+.card {
+    background-color: #47cd8a;
+    border-radius: 0.75rem; /* rounded-lg */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #1d4ed8; /* Tailwind's blue-600 */
+    margin-bottom: 0.5rem;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #4b5563; /* Tailwind's gray-600 */
 }

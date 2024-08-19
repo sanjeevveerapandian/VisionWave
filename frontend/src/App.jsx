@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
 import About from './pages/About';
+import './App.css';
+
 
 const App = () => {
     return (
